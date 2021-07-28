@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://rfbsoft.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getCarRequest>
+            <us:name>Sam</us:name>
+        </us:getCarRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
